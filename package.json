@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@prismicio/client": "^7.0.0",
+    "@prismicio/helpers": "^2.3.9",
     "@prismicio/next": "^1.2.0",
     "@prismicio/react": "^2.6.1",
     "@types/node": "20.2.1",
