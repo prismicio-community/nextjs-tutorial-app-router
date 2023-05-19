@@ -48,6 +48,7 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
         <PrismicNextImage
           field={slice.primary.image}
           sizes="100vw"
+          priority={true}
           className="w-full rounded-xl bg-slate-700"
         />
       </div>
