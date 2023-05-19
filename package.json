@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "prismic-next clear-cache && next dev",
+    "build": "prismic-next clear-cache && next build",
     "start": "next start",
     "lint": "next lint",
     "slicemachine": "start-slicemachine"
