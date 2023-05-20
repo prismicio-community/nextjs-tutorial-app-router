@@ -11,9 +11,7 @@ type Params = { uid: string };
 
 export async function generateMetadata({ params }: { params: Params }) {
   const client = createClient();
-  const page = await client.getByUID("page", params.uid, {
-    fetchOptions: { next: { tags: ["foo"] } },
-  });
+  const page = await client.getByUID("page", params.uid);
   const settings = await client.getSingle("settings");
 
   return {
