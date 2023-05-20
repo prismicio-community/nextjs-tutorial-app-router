@@ -7,8 +7,6 @@ import { PrismicNextLink, PrismicPreview } from "@prismicio/next";
 
 import { createClient, repositoryName } from "@/prismicio";
 
-export const dynamic = "force-static";
-
 export async function generateMetadata() {
   const client = createClient();
   const settings = await client.getSingle("settings");
