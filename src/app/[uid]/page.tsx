@@ -7,6 +7,8 @@ import { SliceZone } from "@prismicio/react";
 import { createClient } from "@/prismicio";
 import { components } from "@/slices";
 
+export const dynamic = "force-static";
+
 type Params = { uid: string };
 
 export async function generateMetadata({ params }: { params: Params }) {

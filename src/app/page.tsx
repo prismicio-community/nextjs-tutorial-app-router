@@ -4,6 +4,8 @@ import { SliceZone } from "@prismicio/react";
 import { createClient } from "@/prismicio";
 import { components } from "@/slices";
 
+export const dynamic = "force-static";
+
 export async function generateMetadata() {
   const client = createClient();
   const page = await client.getSingle("homepage");
