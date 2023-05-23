@@ -1,5 +1,3 @@
-// src/app/[uid]/page.tsx
-
 import { notFound } from "next/navigation";
 import { asText } from "@prismicio/client";
 import { SliceZone } from "@prismicio/react";
