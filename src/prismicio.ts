@@ -32,26 +32,11 @@ const routes: prismic.ClientConfig["routes"] = [
  * @param config - Configuration for the Prismic client.
  */
 export const createClient = (config: prismicNext.CreateClientConfig = {}) => {
-  if (process.env.NODE_ENV === "development") {
-    fetch("http://localhost:3000/revalidate", { method: "post" });
-  }
-
   const client = prismic.createClient(repositoryName, {
     routes,
-    fetchOptions: (url, init) => {
-      return {
-        cache: "force-cache",
-        next: {
-          ...init?.next,
-          tags: [
-            "prismic",
-            /\/documents\/search\/?/.test(url)
-              ? "prismic-query"
-              : "prismic-repository",
-            ...(init?.next?.tags || []),
-          ],
-        },
-      };
+    fetchOptions: {
+      cache: "force-cache",
+      next: { tags: ["prismic"] },
     },
     ...config,
   });
