@@ -8,10 +8,6 @@ import { PrismicNextLink, PrismicPreview } from "@prismicio/next";
 import { createClient, repositoryName } from "@/prismicio";
 
 export async function generateMetadata() {
-  if (process.env.NODE_ENV === "development") {
-    await fetch("http://localhost:3000/revalidate", { method: "post" });
-  }
-
   const client = createClient();
   const settings = await client.getSingle("settings");
 
