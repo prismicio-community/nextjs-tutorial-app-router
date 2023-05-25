@@ -1,5 +1,5 @@
 {
-  "repositoryName": "nextjs-app-router-test",
+  "repositoryName": "nextjs-tutorial-app-router",
   "adapter": "@slicemachine/adapter-next",
   "libraries": ["./src/slices"],
   "localSliceSimulatorURL": "http://localhost:3000/slice-simulator"
