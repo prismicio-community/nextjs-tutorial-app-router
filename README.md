@@ -2,12 +2,10 @@
 
 The [Next.js App Router][nextjs-app-router] and [React Server Components][react-server-components], two recently released innovative features, are great tools to build websites with [Prismic][prismic].
 
-Check out [this repository's companion][tutorial] tutorial to learn how to build Prismic websites with the App Router.
-
+Check out this repository's companion tutorial to [learn how to build Prismic websites with the App Router][tutorial].
+<br/><br/>
 - **Live Demo**: [Open live demo][live-demo]
-- **Tutorial**: [How to use Prismic with the Next.js App Router][tutorial]
-
-&nbsp;
+- **Tutorial**: [How to use Prismic with the Next.js App Router][tutorial]<br/><br/>
 
 ![Screenshots of the site seen on desktop and mobile browsers](https://github.com/prismicio-community/nextjs-tutorial-app-router/assets/8601064/0c38164d-e288-4bc6-89b5-fd81e3fe1b2b)
 
