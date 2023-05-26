@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { asText } from "@prismicio/client";
 import { SliceZone } from "@prismicio/react";
@@ -7,7 +8,11 @@ import { components } from "@/slices";
 
 type Params = { uid: string };
 
-export async function generateMetadata({ params }: { params: Params }) {
+export async function generateMetadata({
+  params,
+}: {
+  params: Params;
+}): Promise<Metadata> {
   const client = createClient();
   const page = await client.getByUID("page", params.uid);
   const settings = await client.getSingle("settings");
