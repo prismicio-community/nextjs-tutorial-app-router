@@ -37,4 +37,4 @@ limitations under the License.
 [nextjs-app-router]: https://nextjs.org/docs/app
 [react-server-components]: https://nextjs.org/docs/getting-started/react-essentials#server-components
 [live-demo]: https://nextjs-tutorial-app-router.vercel.app/
-[tutorial]: https://prismicio.io/blog
+[tutorial]: https://prismic.io/blog
