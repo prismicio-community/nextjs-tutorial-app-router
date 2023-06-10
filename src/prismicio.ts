@@ -41,11 +41,11 @@ export const createClient = (config: prismicNext.CreateClientConfig = {}) => {
     ...config,
   });
 
-  // prismicNext.enableAutoPreviews({
-  //   client,
-  //   previewData: config.previewData,
-  //   req: config.req,
-  // });
+  prismicNext.enableAutoPreviews({
+    client,
+    previewData: config.previewData,
+    req: config.req,
+  });
 
   return client;
 };
