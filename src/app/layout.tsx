@@ -24,10 +24,8 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <body>
-        {/* @ts-expect-error Async Server Component */}
         <Header />
         {children}
-        {/* @ts-expect-error Async Server Component */}
         <Footer />
         <PrismicPreview repositoryName={repositoryName} />
       </body>
