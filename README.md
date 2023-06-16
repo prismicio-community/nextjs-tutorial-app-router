@@ -1,9 +1,3 @@
-> **Note**: This repository's companion tutorial is not yet published.
-> 
-> Please [check the Prismic Blog](https://prismic.io/blog) periodically or [follow Prismic on Twitter](https://twitter.com/prismicio) to learn when the tutorial is available.
->
-> In the meantime, feel free to check out this repository as an example of using Prismic with the Next.js App Router. 🙂
-
 # How to use Prismic with the Next.js App Router
 
 The [Next.js App Router][nextjs-app-router] and [React Server Components][react-server-components], two recently released innovative features, are great tools to build websites with [Prismic][prismic].
@@ -37,4 +31,4 @@ limitations under the License.
 [nextjs-app-router]: https://nextjs.org/docs/app
 [react-server-components]: https://nextjs.org/docs/getting-started/react-essentials#server-components
 [live-demo]: https://nextjs-tutorial-app-router.vercel.app/
-[tutorial]: https://prismic.io/blog
+[tutorial]: https://prismic.io/blog/how-to-use-prismic-with-nextjs-app-router
